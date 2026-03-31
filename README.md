@@ -53,7 +53,7 @@ Our method is specifically designed for **small-scale medical datasets**, addres
 
 This demo shows:
 - Pupil tracking
-- Fast–slow phase extraction
+- Quick positioning
 - BPPV classification results
 
 ---
