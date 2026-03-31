@@ -64,12 +64,11 @@ This demo shows:
 We provide pretrained models for reproducibility:
 
 👉 **Download Pretrained Models:**  
-https://your-model-download-link-here
-
+https://pan.baidu.com/s/1443LCmC_4aP6pcmNU_nDGQ 
+Extraction code: BSPC
 Available models:
-- QuickPOS (pupil tracking & localization)
-- MSTA-DSN (classification)
-- Full pipeline model
+- self-created dataset
+- public dataset
 
 ---
 
