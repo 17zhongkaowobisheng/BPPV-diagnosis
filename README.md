@@ -49,8 +49,9 @@ Our method is specifically designed for **small-scale medical datasets**, addres
 
 ## 🎥 Demo Video
 
-👉 [Watch Demo Video](https://your-demo-link-here)
+👉<img width="2553" height="1296" alt="image" src="https://github.com/user-attachments/assets/8a6c251f-af2f-45cc-aed2-97d864074256" />
 
+Our team has developed a BPPV diagnostic system that integrates our proposed network. The demonstration video is located in the root directory as BPPVsystem.mp4.
 This demo shows:
 - Pupil tracking
 - Quick positioning
