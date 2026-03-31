@@ -38,11 +38,13 @@ Our method is specifically designed for **small-scale medical datasets**, addres
   - Lightweight + high-performance dual-stream architecture
 
 - 🔹 **State-of-the-art Performance**
-| Dataset | Task | Accuracy |
-|--------|------|----------|
-| Self‑created | Binary (BPPV vs. Normal) | **100%** |
-| Self‑created | 5‑Class Subtype | **95%** |
-| Public | 4‑Class Subtype | **90.43%** |
+  - **Self-created dataset**
+    - 100% accuracy (binary classification)
+    - ~95% accuracy (subtype classification)
+  - **Public dataset**
+    - 90.43% (4-class classification)
+    - 100% (right horizontal semicircular canal BPPV)
+
 ---
 ## ⚙️ Usage
 
