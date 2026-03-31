@@ -38,13 +38,11 @@ Our method is specifically designed for **small-scale medical datasets**, addres
   - Lightweight + high-performance dual-stream architecture
 
 - 🔹 **State-of-the-art Performance**
-  - **Self-created dataset**
-    - 100% accuracy (binary classification)
-    - ~95% accuracy (subtype classification)
-  - **Public dataset**
-    - 90.43% (4-class classification)
-    - 100% (right horizontal semicircular canal BPPV)
-
+| Dataset | Task | Accuracy |
+|--------|------|----------|
+| Self‑created | Binary (BPPV vs. Normal) | **100%** |
+| Self‑created | 5‑Class Subtype | **95%** |
+| Public | 4‑Class Subtype | **90.43%** |
 ---
 ## ⚙️ Usage
 
@@ -128,7 +126,17 @@ Available models:
 - public dataset
 
 ---
+## 📁 Dataset Access
 
+Due to **ethical and privacy concerns**, the VNG datasets used in this study cannot be made publicly available. Only a **small set of anonymized sample frames** is provided for illustration (see `docs/sample_data/`).
+
+If you are a researcher or clinician and wish to request access to the full dataset, please contact the corresponding author **Hong Zheng** at **zh@whu.edu.cn** with:
+- Your institutional affiliation and position.
+- A brief description of your research purpose.
+- A signed data usage agreement (template will be provided upon request).
+
+---
 ## 📊 Framework Pipeline
+
 
 
