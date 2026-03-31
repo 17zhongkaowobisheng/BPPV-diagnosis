@@ -1,8 +1,12 @@
 # Multi-frame Spatio-Temporal Attention-enhanced Dual-Stream Network for BPPV Diagnosis
 
-**Enhanced Dual-stream Network for Accurate Benign Paroxysmal Positional Vertigo Diagnosis**
+**Enhanced Dual-stream Network for Accurate Benign Paroxysmal Positional Vertigo Diagnosis**  
+*Chaoyue Tang, Hong Zheng*, Tianyu Wang, Tao Tao, Yuzi Yang, Jianfeng Yang*  
+School of Electronic Information, Wuhan University, Wuhan, China
 
-📄 *Published in Biomedical Signal Processing and Control (BSPC)*
+📄 **Published in *Biomedical Signal Processing and Control***  
+[![Paper](https://img.shields.io/badge/Paper-BSPC-blue)](https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control) 
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ---
 
