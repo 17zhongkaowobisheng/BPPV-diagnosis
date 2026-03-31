@@ -56,9 +56,7 @@ We provide a complete pipeline to convert raw VNG videos into model-ready inputs
 
 Run the following script:
 
-```bash
-python dmk_two_Stream_Network_PyTorch/Gnerate_RGB&FLOW/generate_rgb_and_flow.py
-```
+
 # Input:
 #   .mp4 video
 #
