@@ -46,6 +46,59 @@ Our method is specifically designed for **small-scale medical datasets**, addres
     - 100% (right horizontal semicircular canal BPPV)
 
 ---
+## ⚙️ Usage
+
+### 1. Data Preparation
+
+We provide a complete pipeline to convert raw VNG videos into model-ready inputs.
+
+#### Step 1: Generate RGB Frames and Optical Flow
+
+Run the following script:
+
+```bash
+python dmk_two_Stream_Network_PyTorch/Gnerate_RGB&FLOW/generate_rgb_and_flow.py
+
+# Input:
+#   .mp4 video
+#
+# Output:
+#   RGB frames
+#   Optical flow frames (x / y directions)
+#
+# Description:
+#   This step converts long VNG videos into spatial and motion representations
+#   required by the dual-stream network.
+
+#### Step 2: Prepare Training and Testing Lists
+
+# Directory:
+dmk_two_Stream_Network_PyTorch/TrainTestlist
+
+# Description:
+#   Define training/testing splits and corresponding labels.
+#   Ensure paths correctly point to generated RGB and optical flow data.
+
+### 2. Training
+python dmk_two_Stream_Network_PyTorch/train.py
+
+# Description:
+#   Load RGB and optical flow data
+#   Train the MSTA-DSN model
+#   Save checkpoints automatically
+
+### 3. Testing
+python dmk_two_Stream_Network_PyTorch/test.py
+
+# Description:
+#   Load trained weights
+#   Perform inference on the test set
+#   Output classification results
+
+📌 Notes
+# Ensure RGB and optical flow data are correctly aligned
+# Optical flow must be generated before training
+# Dataset paths must be consistent across all configuration files
 
 ## 🎥 Demo Video
 
